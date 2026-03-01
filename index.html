@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Des Moines Plumbing | 24/7 Emergency Service</title>
+    <style>
+        /* Base & Reset */
+        :root {
+            --primary-red: #D32F2F;
+            --dark-blue: #1976D2;
+            --text-dark: #333333;
+            --bg-light: #F4F6F8;
+            --white: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Designer Top Bar */
+        .designer-bar {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .designer-bar a {
+            color: #4DB8FF;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+
+        .designer-bar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--white);
+            padding: 20px 0;
+            border-bottom: 3px solid var(--primary-red);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: var(--dark-blue);
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .contact-group {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .phone-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--text-dark);
+        }
+
+        .btn-call {
+            background-color: var(--primary-red);
+            color: var(--white);
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s ease;
+        }
+
+        .btn-call:hover {
+            background-color: #B71C1C;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(25, 118, 210, 0.85), rgba(25, 118, 210, 0.85)), url('https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=1200&q=80') center/cover;
+            color: var(--white);
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            line-height: 1.1;
+            text-transform: uppercase;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Services / Features Grid */
+        .services {
+            padding: 80px 0;
+            background-color: var(--bg-light);
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 2.5rem;
+            color: var(--dark-blue);
+            margin-bottom: 50px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .card-content h3 {
+            color: var(--primary-red);
+            margin-top: 0;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .testimonial-box {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.4rem;
+            font-style: italic;
+            color: #555;
+            border-left: 5px solid var(--primary-red);
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        footer h3 {
+            color: var(--white);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="designer-bar">
+        Mockup Concept Designed by ABC Web Designs. <a href="http://abcwebdesigns.org">← Return to Home Page</a>
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Des Moines Plumbing</h1>
+            </div>
+            <div class="contact-group">
+                <span class="phone-text">Emergency? Call Now:</span>
+                <a href="tel:+15153466891" class="btn-call">(515) 346-6891</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Last Minute Emergency? We've Got You.</h2>
+            <p>From broken pipes in the middle of the night to scheduled repairs, we provide fast, reliable plumbing solutions when you need them most.</p>
+            <a href="tel:+15153466891" class="btn-call" style="font-size: 1.4rem; padding: 15px 40px;">Call (515) 346-6891</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Specialties</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1607472586893-edb57cbce42e?auto=format&fit=crop&w=600&q=80" alt="Pipe Repair">
+                    <div class="card-content">
+                        <h3>Rapid Pipe Repair</h3>
+                        <p>Broken pipe in the wall? We specialize in quick tear-outs and replacements so your home stays safe and dry.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80" alt="24/7 Emergency Service">
+                    <div class="card-content">
+                        <h3>Middle of the Night Service</h3>
+                        <p>Plumbing disasters don't wait for business hours. We are available for late-night, last-minute emergency calls.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1505798577917-a65157d3320a?auto=format&fit=crop&w=600&q=80" alt="Contractor Coordination">
+                    <div class="card-content">
+                        <h3>Full-Service Coordination</h3>
+                        <p>We don't just fix the pipe and leave. We can help coordinate with drywall and restoration guys the same day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonial-box">
+                "These guys came out to my home in the middle of the night to fix a pipe that had broken in the wall. They took out the old pipe and had installed a new one in about 30 minutes. They had a drywall guy out the same day that afternoon to fix the hole. I would use these guys again!"
+                <br><br>
+                <span style="font-size: 1rem; color: var(--primary-red); font-weight: bold;">— Verified Customer</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h3>Des Moines Plumbing</h3>
+            <p>3419 1st St UNIT 7, Des Moines, IA</p>
+            <p>Direct Line: (515) 346-6891</p>
+            <p style="margin-top: 30px; font-size: 0.8rem; color: #777;">&copy; 2026 Des Moines Plumbing. This is a design concept.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
